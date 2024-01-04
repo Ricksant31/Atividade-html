@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Escola Virtual</title>
+    
+</head>
+
+<body>
+    <Center>
+    <h1>Escola Virtual</h1>
+    <h2>Formulário de pré matrícula</h2>
+    <hr>
+    </Center>
+    <div style="border: double; padding: 8px; margin: 8px;">
+     <h4>Dados Pessoais:</h4><br>
+    <Center>
+    <p>Nome do Aluno: <input type="text"></p>
+    <p>Nascimento (dd/mm/aaaa): <input type="text"size=3> / <input type="text"size=3> / <input type="text"size=5></p>
+    <p>Nome da Mãe: <input type="text"></p>
+    <p>Nome do Pai: <input type="text"></p>
+    <p>Telefone: DDD (<input type="text"size=4>) Tel:<input type="text"size=8> Ramal: <input type="text"size=5></p>
+    <p>E-mail: <input type="text"></p>
+    </center>
+    <div style="border: double; padding: 1px; margin: 3px;">
+    <h4>Informações de Matrícula:</h4><br>
+    Série:
+    <label for="Serie"></label>
+    <select id="Serie" name="Serie">
+      <option value="Pré Escola">Pré Escola</option>
+      <option value="Infantil">Infantil</option>
+      <option value="Fundamental 1">Fundamental 1</option>
+      <option value="Fundamental 2">Fundamental 2</option>
+      <option value="Ensino Médio">Ensino Médio</option>
+    </select>
+    Turno: 
+    <input type="radio">
+    <label for="Manhã">Manhã</label>
+    <input type="radio">
+    <label for="Tarde">Tarde</label><br>
+    <fieldset>
+
+        <legend>
+            Atividades Extracurriculares
+        </legend>    
+        <input type="checkbox" id="Atividades Extracurriculares:" name="Atividades Extracurriculares">
+        <label for="Informática">Informática</label><br>
+        <input type="checkbox" id="Atividades Extracurriculares:" name="Atividades Extracurriculares">
+        <label for="Música">Música</label><br>
+        <input type="checkbox" id="Atividades Extracurriculares:" name="Atividades Extracurriculares">
+        <label for="Balet">Balet</label><br>
+        <input type="checkbox" id="Atividades Extracurriculares:" name="Atividades Extracurriculares">
+        <label for="Pintura">Pintura</label><br>
+        <input type="checkbox" id="Atividades Extracurriculares:" name="Atividades Extracurriculares">
+        <Label for="judô">judô</Label><br>
+        <input type="checkbox" id="Atividades Extracurriculares:" name="Atividades Extracurriculares">
+        <label for="Futebol">Futebol</label><br>
+    </fieldset>
+
+    </div>
+    <P><button>Envia Formulário</button> <button>Limpa Campos</button></P>
+    </div>
+    
+</body>
